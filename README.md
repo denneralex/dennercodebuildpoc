@@ -1,4 +1,4 @@
-## Installation
+## Installation Instructions
 
 * `npm install`
 * `node app.js`
