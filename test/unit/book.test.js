@@ -13,7 +13,7 @@ describe('Unit - book - getBookList', () => {
 
   it('should return a comma separatade string', (done) => {
     bookModule.getBookList(['a', 'b', 'c'], 0, (result)=>{
-      result.should.equal('a, b, c');
+      result.should.equal('a, b, c, d');
       done();
     });
   });
