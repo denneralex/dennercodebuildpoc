@@ -13,8 +13,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - rm -rf node_modules
 artifacts:
   files:
-    - *.js
-    - package.json
-    - test/**/*
+    - **/*
