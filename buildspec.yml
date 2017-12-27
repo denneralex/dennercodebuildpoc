@@ -16,4 +16,4 @@ phases:
       - rm -rf node_modules
 artifacts:
   files:
-    - **/*
+    - '**/*'
